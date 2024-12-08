@@ -147,9 +147,9 @@ async def onMessage(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 def main():
 
-    BOT_TOKEN = os.getenv("BOT_TOKEN")
+    BOT_TOKEN = os.getenv("7884840608:AAFWzcZhjSAewGay0eIPF7IIMxA6ByUDRHg")
 
-    application = Application.builder().token(BOT_TOKEN).build()
+    application = Application.builder().token(7884840608:AAFWzcZhjSAewGay0eIPF7IIMxA6ByUDRHg).build()
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("generate", generate))
     application.add_handler(CommandHandler("cancel", cancel))
